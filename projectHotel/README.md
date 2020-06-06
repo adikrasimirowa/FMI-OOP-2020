@@ -12,5 +12,7 @@
 
 За по-бърз и лесен достъп, документацията на проектите е достъпна и онлайн на адрес:
 
-[adikrasimirowa.github.io](https://github.com/adikrasimirowa/adikrasimirowa.github.io)
+[adikrasimirowa.github.io](https://adikrasimirowa.github.io/)
+
+В проекта фигурират и Cmake файлове и директории, поради използването на Clion IDE.
 

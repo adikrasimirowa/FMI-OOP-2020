@@ -1,0 +1,110 @@
+\hypertarget{classFigure}{}\doxysection{Figure Class Reference}
+\label{classFigure}\index{Figure@{Figure}}
+
+
+базов абстракртен клас  
+
+
+
+
+{\ttfamily \#include $<$Figure.\+h$>$}
+
+Inheritance diagram for Figure\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classFigure}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{classFigure_a5bb38ff7abd69e06d6f1873b28440262}{print}} ()=0
+\item 
+virtual void \mbox{\hyperlink{classFigure_a5e83671e5cb1f39ad74f10423c9f8b4e}{save}} (std\+::ostream \&)=0
+\item 
+virtual void \mbox{\hyperlink{classFigure_a19ed63fd67149dda8b9ce07675d35a1f}{load}} (std\+::istream \&)=0
+\item 
+virtual void \mbox{\hyperlink{classFigure_ae256e35dca8c56bd9bc8055502178e76}{translate}} (double vertical, double horizontal)=0
+\item 
+virtual \mbox{\hyperlink{classFigure_af155c20558330034441de6a19d94f4a7}{$\sim$\+Figure}} ()
+\begin{DoxyCompactList}\small\item\em Диструктор \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classFigure}{Figure}} $\ast$ \mbox{\hyperlink{classFigure_a6738d7e5aee15e2e88a4aedab74be6b3}{load\+Figure}} (std\+::istream \&in)
+\begin{DoxyCompactList}\small\item\em зарежда фигурата, като използва фабрика която създава обект от йерахията \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+базов абстракртен клас 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFigure_af155c20558330034441de6a19d94f4a7}\label{classFigure_af155c20558330034441de6a19d94f4a7}} 
+\index{Figure@{Figure}!````~Figure@{$\sim$Figure}}
+\index{````~Figure@{$\sim$Figure}!Figure@{Figure}}
+\doxysubsubsection{\texorpdfstring{$\sim$Figure()}{~Figure()}}
+{\footnotesize\ttfamily Figure\+::$\sim$\+Figure (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Диструктор 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classFigure_a19ed63fd67149dda8b9ce07675d35a1f}\label{classFigure_a19ed63fd67149dda8b9ce07675d35a1f}} 
+\index{Figure@{Figure}!load@{load}}
+\index{load@{load}!Figure@{Figure}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily virtual void Figure\+::load (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classRectangle_a8b2a421546ef7ac0ea9b3e8b2c1a48ce}{Rectangle}}, \mbox{\hyperlink{classLine_a8bf74f7c92da0180bb206b00a50861f3}{Line}}, and \mbox{\hyperlink{classCircle_a18227f9c63748753b1cd8bae6b633dd5}{Circle}}.
+
+\mbox{\Hypertarget{classFigure_a6738d7e5aee15e2e88a4aedab74be6b3}\label{classFigure_a6738d7e5aee15e2e88a4aedab74be6b3}} 
+\index{Figure@{Figure}!loadFigure@{loadFigure}}
+\index{loadFigure@{loadFigure}!Figure@{Figure}}
+\doxysubsubsection{\texorpdfstring{loadFigure()}{loadFigure()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFigure}{Figure}} $\ast$ Figure\+::load\+Figure (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+зарежда фигурата, като използва фабрика която създава обект от йерахията 
+
+\mbox{\Hypertarget{classFigure_a5bb38ff7abd69e06d6f1873b28440262}\label{classFigure_a5bb38ff7abd69e06d6f1873b28440262}} 
+\index{Figure@{Figure}!print@{print}}
+\index{print@{print}!Figure@{Figure}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily virtual void Figure\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classRectangle_abe632920fce778141264fcd896052d11}{Rectangle}}, \mbox{\hyperlink{classLine_af45d136b44f3919ff3e7c050b6fdc041}{Line}}, and \mbox{\hyperlink{classCircle_a8e1b2afd696611b697691ed8ae897000}{Circle}}.
+
+\mbox{\Hypertarget{classFigure_a5e83671e5cb1f39ad74f10423c9f8b4e}\label{classFigure_a5e83671e5cb1f39ad74f10423c9f8b4e}} 
+\index{Figure@{Figure}!save@{save}}
+\index{save@{save}!Figure@{Figure}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily virtual void Figure\+::save (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classRectangle_afd5d3b76d0752be0f05cd0d80e73e2b2}{Rectangle}}, \mbox{\hyperlink{classLine_afdc7692eca51009e775c8c8ac21b7900}{Line}}, and \mbox{\hyperlink{classCircle_a64147857304d7c86e39cac9dd7e13772}{Circle}}.
+
+\mbox{\Hypertarget{classFigure_ae256e35dca8c56bd9bc8055502178e76}\label{classFigure_ae256e35dca8c56bd9bc8055502178e76}} 
+\index{Figure@{Figure}!translate@{translate}}
+\index{translate@{translate}!Figure@{Figure}}
+\doxysubsubsection{\texorpdfstring{translate()}{translate()}}
+{\footnotesize\ttfamily virtual void Figure\+::translate (\begin{DoxyParamCaption}\item[{double}]{vertical,  }\item[{double}]{horizontal }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classRectangle_a232c1dc1c76d7d0ed35170363acbf994}{Rectangle}}, \mbox{\hyperlink{classLine_a80231ae677d6c77d13fc3fc8f4a5b48f}{Line}}, and \mbox{\hyperlink{classCircle_a048fb06be6d6146f68c3795acfb35085}{Circle}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Figure_8h}{Figure.\+h}}\item 
+\mbox{\hyperlink{Figure_8cpp}{Figure.\+cpp}}\end{DoxyCompactItemize}

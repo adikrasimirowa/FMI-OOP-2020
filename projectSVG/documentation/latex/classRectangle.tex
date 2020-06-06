@@ -1,0 +1,260 @@
+\hypertarget{classRectangle}{}\doxysection{Rectangle Class Reference}
+\label{classRectangle}\index{Rectangle@{Rectangle}}
+
+
+{\ttfamily \#include $<$Rectangle.\+h$>$}
+
+Inheritance diagram for Rectangle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classRectangle}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRectangle_af68095306c35924308d318f439418c9a}{Rectangle}} (double \+\_\+x, double \+\_\+y, double \+\_\+width, double \+\_\+height, std\+::string \+\_\+fill)
+\begin{DoxyCompactList}\small\item\em Конструктор с параметри и списък с инициализатори на членове \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classRectangle_af178afae625255422760e4ff241b15fe}{Rectangle}} (const \mbox{\hyperlink{classRectangle}{Rectangle}} \&other)
+\begin{DoxyCompactList}\small\item\em Копиращ конструктор \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classRectangle}{Rectangle}} \& \mbox{\hyperlink{classRectangle_aceac2b7976b2e6b0d482dd01501f0f09}{operator=}} (const \mbox{\hyperlink{classRectangle}{Rectangle}} \&other)
+\begin{DoxyCompactList}\small\item\em Оператор за присвояване -\/ предефинираме =. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classRectangle_a494c076b13aadf26efdce07d23c61ddd}{$\sim$\+Rectangle}} ()
+\begin{DoxyCompactList}\small\item\em Диструктор \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRectangle_abe632920fce778141264fcd896052d11}{print}} ()
+\begin{DoxyCompactList}\small\item\em извеждане на всички член данни \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRectangle_afd5d3b76d0752be0f05cd0d80e73e2b2}{save}} (std\+::ostream \&out)
+\begin{DoxyCompactList}\small\item\em записване в потока \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRectangle_a8b2a421546ef7ac0ea9b3e8b2c1a48ce}{load}} (std\+::istream \&in)
+\begin{DoxyCompactList}\small\item\em зареждане от потока \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRectangle_a232c1dc1c76d7d0ed35170363acbf994}{translate}} (double vertical, double horizontal)
+\begin{DoxyCompactList}\small\item\em транслира правоъгълника \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classRectangle_a76bcb56458ba3adf4f73671a76cf10a3}{get\+Rx}} () const
+\begin{DoxyCompactList}\small\item\em връща координатите rx. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRectangle_a8f93261a9516744ad67f5bd3aa4f4dc1}{set\+Rx}} (double rx)
+\begin{DoxyCompactList}\small\item\em задава координатите yx. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classRectangle_a6aaa0cd2541f9b2b8e65092ceceb986f}{get\+Ry}} () const
+\begin{DoxyCompactList}\small\item\em връща координатите ry. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRectangle_ae6e151819e907c484854eb9c4ee093fb}{set\+Ry}} (double ry)
+\begin{DoxyCompactList}\small\item\em задава координатите rx. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classRectangle_a0d38078e09cd3151d3009eed3a449660}{get\+Width}} () const
+\begin{DoxyCompactList}\small\item\em задава ширината на правоъгълника \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRectangle_af0de79c24c56b5bc845154a32ff22595}{set\+Width}} (double width)
+\begin{DoxyCompactList}\small\item\em задава ширината на правоъгъкника \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classRectangle_ae2fb8da7f67a36a80d8f789eec63a074}{get\+Height}} () const
+\begin{DoxyCompactList}\small\item\em връща височината на правоъгълника \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRectangle_afdd8b6a952a7d78d551e88e7b9e45f17}{set\+Height}} (double height)
+\begin{DoxyCompactList}\small\item\em задава височината на правоъгълника \end{DoxyCompactList}\item 
+const std\+::string \& \mbox{\hyperlink{classRectangle_af0bad9ac63d9e72cb9b0b209cf69fe35}{get\+Fill}} () const
+\begin{DoxyCompactList}\small\item\em връща цвета на фигурата \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRectangle_a30eea661cf84f86a709523795a93818b}{set\+Fill}} (const std\+::string \&fill)
+\begin{DoxyCompactList}\small\item\em задава цвета на фигурата \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRectangle_af68095306c35924308d318f439418c9a}\label{classRectangle_af68095306c35924308d318f439418c9a}} 
+\index{Rectangle@{Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{Rectangle()}{Rectangle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Rectangle\+::\+Rectangle (\begin{DoxyParamCaption}\item[{double}]{\+\_\+x,  }\item[{double}]{\+\_\+y,  }\item[{double}]{\+\_\+width,  }\item[{double}]{\+\_\+height,  }\item[{std\+::string}]{\+\_\+fill }\end{DoxyParamCaption})}
+
+
+
+Конструктор с параметри и списък с инициализатори на членове 
+
+\mbox{\Hypertarget{classRectangle_af178afae625255422760e4ff241b15fe}\label{classRectangle_af178afae625255422760e4ff241b15fe}} 
+\index{Rectangle@{Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{Rectangle()}{Rectangle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Rectangle\+::\+Rectangle (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classRectangle}{Rectangle}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Копиращ конструктор 
+
+\mbox{\Hypertarget{classRectangle_a494c076b13aadf26efdce07d23c61ddd}\label{classRectangle_a494c076b13aadf26efdce07d23c61ddd}} 
+\index{Rectangle@{Rectangle}!````~Rectangle@{$\sim$Rectangle}}
+\index{````~Rectangle@{$\sim$Rectangle}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{$\sim$Rectangle()}{~Rectangle()}}
+{\footnotesize\ttfamily Rectangle\+::$\sim$\+Rectangle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Диструктор 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRectangle_af0bad9ac63d9e72cb9b0b209cf69fe35}\label{classRectangle_af0bad9ac63d9e72cb9b0b209cf69fe35}} 
+\index{Rectangle@{Rectangle}!getFill@{getFill}}
+\index{getFill@{getFill}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{getFill()}{getFill()}}
+{\footnotesize\ttfamily const std\+::string \& Rectangle\+::get\+Fill (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща цвета на фигурата 
+
+\mbox{\Hypertarget{classRectangle_ae2fb8da7f67a36a80d8f789eec63a074}\label{classRectangle_ae2fb8da7f67a36a80d8f789eec63a074}} 
+\index{Rectangle@{Rectangle}!getHeight@{getHeight}}
+\index{getHeight@{getHeight}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{getHeight()}{getHeight()}}
+{\footnotesize\ttfamily double Rectangle\+::get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща височината на правоъгълника 
+
+\mbox{\Hypertarget{classRectangle_a76bcb56458ba3adf4f73671a76cf10a3}\label{classRectangle_a76bcb56458ba3adf4f73671a76cf10a3}} 
+\index{Rectangle@{Rectangle}!getRx@{getRx}}
+\index{getRx@{getRx}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{getRx()}{getRx()}}
+{\footnotesize\ttfamily double Rectangle\+::get\+Rx (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща координатите rx. 
+
+\mbox{\Hypertarget{classRectangle_a6aaa0cd2541f9b2b8e65092ceceb986f}\label{classRectangle_a6aaa0cd2541f9b2b8e65092ceceb986f}} 
+\index{Rectangle@{Rectangle}!getRy@{getRy}}
+\index{getRy@{getRy}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{getRy()}{getRy()}}
+{\footnotesize\ttfamily double Rectangle\+::get\+Ry (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща координатите ry. 
+
+\mbox{\Hypertarget{classRectangle_a0d38078e09cd3151d3009eed3a449660}\label{classRectangle_a0d38078e09cd3151d3009eed3a449660}} 
+\index{Rectangle@{Rectangle}!getWidth@{getWidth}}
+\index{getWidth@{getWidth}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{getWidth()}{getWidth()}}
+{\footnotesize\ttfamily double Rectangle\+::get\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+задава ширината на правоъгълника 
+
+\mbox{\Hypertarget{classRectangle_a8b2a421546ef7ac0ea9b3e8b2c1a48ce}\label{classRectangle_a8b2a421546ef7ac0ea9b3e8b2c1a48ce}} 
+\index{Rectangle@{Rectangle}!load@{load}}
+\index{load@{load}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily void Rectangle\+::load (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+зареждане от потока 
+
+
+
+Implements \mbox{\hyperlink{classFigure_a19ed63fd67149dda8b9ce07675d35a1f}{Figure}}.
+
+\mbox{\Hypertarget{classRectangle_aceac2b7976b2e6b0d482dd01501f0f09}\label{classRectangle_aceac2b7976b2e6b0d482dd01501f0f09}} 
+\index{Rectangle@{Rectangle}!operator=@{operator=}}
+\index{operator=@{operator=}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classRectangle}{Rectangle}} \& Rectangle\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classRectangle}{Rectangle}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Оператор за присвояване -\/ предефинираме =. 
+
+\mbox{\Hypertarget{classRectangle_abe632920fce778141264fcd896052d11}\label{classRectangle_abe632920fce778141264fcd896052d11}} 
+\index{Rectangle@{Rectangle}!print@{print}}
+\index{print@{print}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Rectangle\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+извеждане на всички член данни 
+
+
+
+Implements \mbox{\hyperlink{classFigure_a5bb38ff7abd69e06d6f1873b28440262}{Figure}}.
+
+\mbox{\Hypertarget{classRectangle_afd5d3b76d0752be0f05cd0d80e73e2b2}\label{classRectangle_afd5d3b76d0752be0f05cd0d80e73e2b2}} 
+\index{Rectangle@{Rectangle}!save@{save}}
+\index{save@{save}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily void Rectangle\+::save (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+записване в потока 
+
+
+
+Implements \mbox{\hyperlink{classFigure_a5e83671e5cb1f39ad74f10423c9f8b4e}{Figure}}.
+
+\mbox{\Hypertarget{classRectangle_a30eea661cf84f86a709523795a93818b}\label{classRectangle_a30eea661cf84f86a709523795a93818b}} 
+\index{Rectangle@{Rectangle}!setFill@{setFill}}
+\index{setFill@{setFill}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{setFill()}{setFill()}}
+{\footnotesize\ttfamily void Rectangle\+::set\+Fill (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{\+\_\+fill }\end{DoxyParamCaption})}
+
+
+
+задава цвета на фигурата 
+
+\mbox{\Hypertarget{classRectangle_afdd8b6a952a7d78d551e88e7b9e45f17}\label{classRectangle_afdd8b6a952a7d78d551e88e7b9e45f17}} 
+\index{Rectangle@{Rectangle}!setHeight@{setHeight}}
+\index{setHeight@{setHeight}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{setHeight()}{setHeight()}}
+{\footnotesize\ttfamily void Rectangle\+::set\+Height (\begin{DoxyParamCaption}\item[{double}]{\+\_\+height }\end{DoxyParamCaption})}
+
+
+
+задава височината на правоъгълника 
+
+\mbox{\Hypertarget{classRectangle_a8f93261a9516744ad67f5bd3aa4f4dc1}\label{classRectangle_a8f93261a9516744ad67f5bd3aa4f4dc1}} 
+\index{Rectangle@{Rectangle}!setRx@{setRx}}
+\index{setRx@{setRx}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{setRx()}{setRx()}}
+{\footnotesize\ttfamily void Rectangle\+::set\+Rx (\begin{DoxyParamCaption}\item[{double}]{\+\_\+rx }\end{DoxyParamCaption})}
+
+
+
+задава координатите yx. 
+
+\mbox{\Hypertarget{classRectangle_ae6e151819e907c484854eb9c4ee093fb}\label{classRectangle_ae6e151819e907c484854eb9c4ee093fb}} 
+\index{Rectangle@{Rectangle}!setRy@{setRy}}
+\index{setRy@{setRy}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{setRy()}{setRy()}}
+{\footnotesize\ttfamily void Rectangle\+::set\+Ry (\begin{DoxyParamCaption}\item[{double}]{\+\_\+ry }\end{DoxyParamCaption})}
+
+
+
+задава координатите rx. 
+
+\mbox{\Hypertarget{classRectangle_af0de79c24c56b5bc845154a32ff22595}\label{classRectangle_af0de79c24c56b5bc845154a32ff22595}} 
+\index{Rectangle@{Rectangle}!setWidth@{setWidth}}
+\index{setWidth@{setWidth}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{setWidth()}{setWidth()}}
+{\footnotesize\ttfamily void Rectangle\+::set\+Width (\begin{DoxyParamCaption}\item[{double}]{\+\_\+width }\end{DoxyParamCaption})}
+
+
+
+задава ширината на правоъгъкника 
+
+\mbox{\Hypertarget{classRectangle_a232c1dc1c76d7d0ed35170363acbf994}\label{classRectangle_a232c1dc1c76d7d0ed35170363acbf994}} 
+\index{Rectangle@{Rectangle}!translate@{translate}}
+\index{translate@{translate}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{translate()}{translate()}}
+{\footnotesize\ttfamily void Rectangle\+::translate (\begin{DoxyParamCaption}\item[{double}]{vertical,  }\item[{double}]{horizontal }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+транслира правоъгълника 
+
+
+
+Implements \mbox{\hyperlink{classFigure_ae256e35dca8c56bd9bc8055502178e76}{Figure}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Rectangle_8h}{Rectangle.\+h}}\item 
+\mbox{\hyperlink{Rectangle_8cpp}{Rectangle.\+cpp}}\end{DoxyCompactItemize}

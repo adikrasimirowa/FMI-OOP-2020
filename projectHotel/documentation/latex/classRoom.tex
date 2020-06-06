@@ -1,0 +1,277 @@
+\hypertarget{classRoom}{}\doxysection{Room Class Reference}
+\label{classRoom}\index{Room@{Room}}
+
+
+{\ttfamily \#include $<$Room.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRoom_ac6ef93a7d9c3e1d624e025058d5f16ff}{Room}} ()
+\begin{DoxyCompactList}\small\item\em брой гости настанени в стаята \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classRoom_a6db4229d148f03200f4a26d11bb8c9c6}{Room}} (size\+\_\+t \+\_\+room, size\+\_\+t \+\_\+beds, std\+::string \+\_\+from\+Date, std\+::string \+\_\+to\+Date, std\+::string \+\_\+note, bool \+\_\+status)
+\begin{DoxyCompactList}\small\item\em Конструктор с параметри и списък с инициализатори на членове \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classRoom}{Room}} \& \mbox{\hyperlink{classRoom_adfa7acf07fe4e58b1a37f50a60f7a969}{operator=}} (const \mbox{\hyperlink{classRoom}{Room}} \&other)
+\begin{DoxyCompactList}\small\item\em Оператор за присвояване -\/ предефинираме =. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classRoom_a43187ba19aa202a0fdf0efc385ad45f2}{Room}} (const \mbox{\hyperlink{classRoom}{Room}} \&other)
+\begin{DoxyCompactList}\small\item\em Копиращ конструктор \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classRoom_a67d5da09983cc53097807fd43ba5481a}{$\sim$\+Room}} ()
+\begin{DoxyCompactList}\small\item\em Дeструктор \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoom_a1b1ebc0e6e5b02acebec504c0d2606ed}{checkin}} (const std\+::string \&\+\_\+from\+Date, const std\+::string \&\+\_\+to\+Date, const std\+::string \&\+\_\+note)
+\item 
+void \mbox{\hyperlink{classRoom_accdfb5d3010829adf02f4c467f3c7419}{availability}} (const std\+::string \&date)
+\item 
+void \mbox{\hyperlink{classRoom_ada349a51068f30e5d3956d64d1ddc7cd}{checkout}} (size\+\_\+t room)
+\item 
+void \mbox{\hyperlink{classRoom_a835986828314462be9799b4ab25a8035}{unavailable}} (const std\+::string \&\+\_\+from\+Date, const std\+::string \&\+\_\+to\+Date, const std\+::string \&\+\_\+note)
+\item 
+\mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} \mbox{\hyperlink{classRoom_a0873f379afa4cde15d628eb54923ace4}{get\+Room}} () const
+\begin{DoxyCompactList}\small\item\em връща номера на стаята \end{DoxyCompactList}\item 
+\mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} \mbox{\hyperlink{classRoom_ae47efed4e86546802cce7fd2cd44a053}{get\+Beds}} () const
+\begin{DoxyCompactList}\small\item\em връща броя легла в стаята \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classRoom_a0e7ed697dde76e4713c24c1b8d3725f5}{get\+Status}} () const
+\item 
+std\+::string \mbox{\hyperlink{classRoom_a4b6bc5a2275b6ae1c95dba31181ba963}{get\+From\+Date}} ()
+\begin{DoxyCompactList}\small\item\em връща датата на настаняване \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classRoom_a9cfe5155c10afad822a10d9687a0d1e5}{get\+To\+Date}} ()
+\begin{DoxyCompactList}\small\item\em връща датата на напускане \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoom_a5f6b31887b1dd70b313100f32d844b0d}{save}} (std\+::ostream \&out)
+\begin{DoxyCompactList}\small\item\em записване в потока \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoom_af7f457232c96f0e5479997d934d1071f}{load}} (std\+::istream \&in)
+\begin{DoxyCompactList}\small\item\em зареждане от потока \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoom_aeb55bdfe855178268746de7ccd0ee8c4}{set\+Room}} (size\+\_\+t room)
+\begin{DoxyCompactList}\small\item\em задава стойност на стаите \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoom_a4e5378276406f764dc8caa6d76e8fe33}{set\+From\+Date}} (const std\+::string \&from\+Date)
+\begin{DoxyCompactList}\small\item\em задава стойност на дата на настаняване \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoom_ada49e5c656610e9cf3e90ad49d97f47a}{set\+To\+Date}} (const std\+::string \&to\+Date)
+\begin{DoxyCompactList}\small\item\em задава стойност на дата на напускане \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoom_ac40835321ec6cc2103876986c4576fc2}{set\+Note}} (const std\+::string \&note)
+\begin{DoxyCompactList}\small\item\em задава стойност на бележка \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoom_aab1885ab6d673584d50fab1da1c3eed9}{set\+Beds}} (size\+\_\+t beds)
+\begin{DoxyCompactList}\small\item\em задава стойност на леглата в стаята \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoom_a7574cb3cd922262ce842760eb62dc6ef}{set\+Status}} (bool status)
+\begin{DoxyCompactList}\small\item\em задава стойноаст на статуса на стая \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoom_ad4d6bffe2a57fe65fa5799ac4053531a}{set\+Number\+Of\+Guests}} (size\+\_\+t number\+Of\+Guests)
+\begin{DoxyCompactList}\small\item\em задава стойносст на броят гости в стая \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRoom_ac6ef93a7d9c3e1d624e025058d5f16ff}\label{classRoom_ac6ef93a7d9c3e1d624e025058d5f16ff}} 
+\index{Room@{Room}!Room@{Room}}
+\index{Room@{Room}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{Room()}{Room()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Room\+::\+Room (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+брой гости настанени в стаята 
+
+Конструктор по подразбиране задаваме \char`\"{}default\char`\"{} стойности на член-\/даните на класа status = false; -\/ стаята не е заета from\+Date и to\+Date приемат стойноста \mbox{\hyperlink{helpers_8cpp_a9362a88e9b672f9ec4431f148e0198e0}{current\+Date()}} -\/ текуща дата \mbox{\Hypertarget{classRoom_a6db4229d148f03200f4a26d11bb8c9c6}\label{classRoom_a6db4229d148f03200f4a26d11bb8c9c6}} 
+\index{Room@{Room}!Room@{Room}}
+\index{Room@{Room}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{Room()}{Room()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Room\+::\+Room (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{\+\_\+room,  }\item[{size\+\_\+t}]{\+\_\+beds,  }\item[{std\+::string}]{\+\_\+from\+Date,  }\item[{std\+::string}]{\+\_\+to\+Date,  }\item[{std\+::string}]{\+\_\+note,  }\item[{bool}]{\+\_\+status }\end{DoxyParamCaption})}
+
+
+
+Конструктор с параметри и списък с инициализатори на членове 
+
+\mbox{\Hypertarget{classRoom_a43187ba19aa202a0fdf0efc385ad45f2}\label{classRoom_a43187ba19aa202a0fdf0efc385ad45f2}} 
+\index{Room@{Room}!Room@{Room}}
+\index{Room@{Room}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{Room()}{Room()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Room\+::\+Room (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classRoom}{Room}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Копиращ конструктор 
+
+\mbox{\Hypertarget{classRoom_a67d5da09983cc53097807fd43ba5481a}\label{classRoom_a67d5da09983cc53097807fd43ba5481a}} 
+\index{Room@{Room}!````~Room@{$\sim$Room}}
+\index{````~Room@{$\sim$Room}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{$\sim$Room()}{~Room()}}
+{\footnotesize\ttfamily Room\+::$\sim$\+Room (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Дeструктор 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRoom_accdfb5d3010829adf02f4c467f3c7419}\label{classRoom_accdfb5d3010829adf02f4c467f3c7419}} 
+\index{Room@{Room}!availability@{availability}}
+\index{availability@{availability}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{availability()}{availability()}}
+{\footnotesize\ttfamily void Room\+::availability (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{date }\end{DoxyParamCaption})}
+
+availability \mbox{[}$<$date$>$\mbox{]} Извежда списък на свободните стаи на дата $<$date$>$, ако не е зададена, се използва текущата дата. \mbox{\Hypertarget{classRoom_a1b1ebc0e6e5b02acebec504c0d2606ed}\label{classRoom_a1b1ebc0e6e5b02acebec504c0d2606ed}} 
+\index{Room@{Room}!checkin@{checkin}}
+\index{checkin@{checkin}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{checkin()}{checkin()}}
+{\footnotesize\ttfamily void Room\+::checkin (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{\+\_\+from\+Date,  }\item[{const std\+::string \&}]{\+\_\+to\+Date,  }\item[{const std\+::string \&}]{\+\_\+note }\end{DoxyParamCaption})}
+
+checkin $<$room$>$ $<$from$>$ $<$to$>$ $<$note$>$ \mbox{[}$<$guests$>$\mbox{]} Регистриране в стая с номер $<$room$>$ от дата $<$from$>$ до дата $<$to$>$ и се добавя бележка $<$note$>$. Незадължителният параметър $<$guests$>$ задава броя на гостите, настанени в стаята. Ако той не е указан, се счита, че броят на настанените гости е равен на броя на леглата в стаята. Пример\+: checkin 229 2020-\/03-\/23 2020-\/03-\/31 The Simpsons \mbox{\Hypertarget{classRoom_ada349a51068f30e5d3956d64d1ddc7cd}\label{classRoom_ada349a51068f30e5d3956d64d1ddc7cd}} 
+\index{Room@{Room}!checkout@{checkout}}
+\index{checkout@{checkout}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{checkout()}{checkout()}}
+{\footnotesize\ttfamily void Room\+::checkout (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{\+\_\+room }\end{DoxyParamCaption})}
+
+checkout $<$room$>$ Освобождаване на заета стая с номер $<$room$>$. \mbox{\Hypertarget{classRoom_ae47efed4e86546802cce7fd2cd44a053}\label{classRoom_ae47efed4e86546802cce7fd2cd44a053}} 
+\index{Room@{Room}!getBeds@{getBeds}}
+\index{getBeds@{getBeds}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getBeds()}{getBeds()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} Room\+::get\+Beds (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща броя легла в стаята 
+
+\mbox{\Hypertarget{classRoom_a4b6bc5a2275b6ae1c95dba31181ba963}\label{classRoom_a4b6bc5a2275b6ae1c95dba31181ba963}} 
+\index{Room@{Room}!getFromDate@{getFromDate}}
+\index{getFromDate@{getFromDate}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getFromDate()}{getFromDate()}}
+{\footnotesize\ttfamily std\+::string Room\+::get\+From\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+връща датата на настаняване 
+
+\mbox{\Hypertarget{classRoom_a0873f379afa4cde15d628eb54923ace4}\label{classRoom_a0873f379afa4cde15d628eb54923ace4}} 
+\index{Room@{Room}!getRoom@{getRoom}}
+\index{getRoom@{getRoom}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getRoom()}{getRoom()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} Room\+::get\+Room (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща номера на стаята 
+
+\mbox{\Hypertarget{classRoom_a0e7ed697dde76e4713c24c1b8d3725f5}\label{classRoom_a0e7ed697dde76e4713c24c1b8d3725f5}} 
+\index{Room@{Room}!getStatus@{getStatus}}
+\index{getStatus@{getStatus}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getStatus()}{getStatus()}}
+{\footnotesize\ttfamily bool Room\+::get\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classRoom_a9cfe5155c10afad822a10d9687a0d1e5}\label{classRoom_a9cfe5155c10afad822a10d9687a0d1e5}} 
+\index{Room@{Room}!getToDate@{getToDate}}
+\index{getToDate@{getToDate}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getToDate()}{getToDate()}}
+{\footnotesize\ttfamily std\+::string Room\+::get\+To\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+връща датата на напускане 
+
+\mbox{\Hypertarget{classRoom_af7f457232c96f0e5479997d934d1071f}\label{classRoom_af7f457232c96f0e5479997d934d1071f}} 
+\index{Room@{Room}!load@{load}}
+\index{load@{load}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily void Room\+::load (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in }\end{DoxyParamCaption})}
+
+
+
+зареждане от потока 
+
+\mbox{\Hypertarget{classRoom_adfa7acf07fe4e58b1a37f50a60f7a969}\label{classRoom_adfa7acf07fe4e58b1a37f50a60f7a969}} 
+\index{Room@{Room}!operator=@{operator=}}
+\index{operator=@{operator=}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classRoom}{Room}} \& Room\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classRoom}{Room}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Оператор за присвояване -\/ предефинираме =. 
+
+\mbox{\Hypertarget{classRoom_a5f6b31887b1dd70b313100f32d844b0d}\label{classRoom_a5f6b31887b1dd70b313100f32d844b0d}} 
+\index{Room@{Room}!save@{save}}
+\index{save@{save}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily void Room\+::save (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption})}
+
+
+
+записване в потока 
+
+\mbox{\Hypertarget{classRoom_aab1885ab6d673584d50fab1da1c3eed9}\label{classRoom_aab1885ab6d673584d50fab1da1c3eed9}} 
+\index{Room@{Room}!setBeds@{setBeds}}
+\index{setBeds@{setBeds}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setBeds()}{setBeds()}}
+{\footnotesize\ttfamily void Room\+::set\+Beds (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{\+\_\+beds }\end{DoxyParamCaption})}
+
+
+
+задава стойност на леглата в стаята 
+
+\mbox{\Hypertarget{classRoom_a4e5378276406f764dc8caa6d76e8fe33}\label{classRoom_a4e5378276406f764dc8caa6d76e8fe33}} 
+\index{Room@{Room}!setFromDate@{setFromDate}}
+\index{setFromDate@{setFromDate}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setFromDate()}{setFromDate()}}
+{\footnotesize\ttfamily void Room\+::set\+From\+Date (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{\+\_\+from\+Date }\end{DoxyParamCaption})}
+
+
+
+задава стойност на дата на настаняване 
+
+\mbox{\Hypertarget{classRoom_ac40835321ec6cc2103876986c4576fc2}\label{classRoom_ac40835321ec6cc2103876986c4576fc2}} 
+\index{Room@{Room}!setNote@{setNote}}
+\index{setNote@{setNote}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setNote()}{setNote()}}
+{\footnotesize\ttfamily void Room\+::set\+Note (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{\+\_\+note }\end{DoxyParamCaption})}
+
+
+
+задава стойност на бележка 
+
+\mbox{\Hypertarget{classRoom_ad4d6bffe2a57fe65fa5799ac4053531a}\label{classRoom_ad4d6bffe2a57fe65fa5799ac4053531a}} 
+\index{Room@{Room}!setNumberOfGuests@{setNumberOfGuests}}
+\index{setNumberOfGuests@{setNumberOfGuests}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setNumberOfGuests()}{setNumberOfGuests()}}
+{\footnotesize\ttfamily void Room\+::set\+Number\+Of\+Guests (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{\+\_\+number\+Of\+Guests }\end{DoxyParamCaption})}
+
+
+
+задава стойносст на броят гости в стая 
+
+\mbox{\Hypertarget{classRoom_aeb55bdfe855178268746de7ccd0ee8c4}\label{classRoom_aeb55bdfe855178268746de7ccd0ee8c4}} 
+\index{Room@{Room}!setRoom@{setRoom}}
+\index{setRoom@{setRoom}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setRoom()}{setRoom()}}
+{\footnotesize\ttfamily void Room\+::set\+Room (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{\+\_\+room }\end{DoxyParamCaption})}
+
+
+
+задава стойност на стаите 
+
+\mbox{\Hypertarget{classRoom_a7574cb3cd922262ce842760eb62dc6ef}\label{classRoom_a7574cb3cd922262ce842760eb62dc6ef}} 
+\index{Room@{Room}!setStatus@{setStatus}}
+\index{setStatus@{setStatus}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setStatus()}{setStatus()}}
+{\footnotesize\ttfamily void Room\+::set\+Status (\begin{DoxyParamCaption}\item[{bool}]{\+\_\+status }\end{DoxyParamCaption})}
+
+
+
+задава стойноаст на статуса на стая 
+
+\mbox{\Hypertarget{classRoom_ada49e5c656610e9cf3e90ad49d97f47a}\label{classRoom_ada49e5c656610e9cf3e90ad49d97f47a}} 
+\index{Room@{Room}!setToDate@{setToDate}}
+\index{setToDate@{setToDate}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setToDate()}{setToDate()}}
+{\footnotesize\ttfamily void Room\+::set\+To\+Date (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{\+\_\+to\+Date }\end{DoxyParamCaption})}
+
+
+
+задава стойност на дата на напускане 
+
+\mbox{\Hypertarget{classRoom_a835986828314462be9799b4ab25a8035}\label{classRoom_a835986828314462be9799b4ab25a8035}} 
+\index{Room@{Room}!unavailable@{unavailable}}
+\index{unavailable@{unavailable}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{unavailable()}{unavailable()}}
+{\footnotesize\ttfamily void Room\+::unavailable (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{\+\_\+from\+Date,  }\item[{const std\+::string \&}]{\+\_\+to\+Date,  }\item[{const std\+::string \&}]{\+\_\+note }\end{DoxyParamCaption})}
+
+unavailable $<$room$>$ $<$from$>$ $<$to$>$ $<$note$>$ Обявява стаята с номер $<$room$>$ от дата $<$from$>$ до дата $<$to$>$ за временно недостъпна и се добавя бележка $<$note$>$. В стаята няма регистриран гост, но никой не може да бъде настанен в нея. Пример\+: unavailable 200 2018-\/06-\/01 2019-\/03-\/01 Under construction 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Room_8h}{Room.\+h}}\item 
+\mbox{\hyperlink{Room_8cpp}{Room.\+cpp}}\end{DoxyCompactItemize}

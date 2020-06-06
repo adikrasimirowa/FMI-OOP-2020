@@ -1,0 +1,3 @@
+/home/adi/Documents/c++/oop/FOR GIT/projectHotel/CMakeFiles/rebuild_cache.dir
+/home/adi/Documents/c++/oop/FOR GIT/projectHotel/CMakeFiles/edit_cache.dir
+/home/adi/Documents/c++/oop/FOR GIT/projectHotel/CMakeFiles/projectHotel.dir

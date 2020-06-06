@@ -1,1 +1,1 @@
-4 circle 0 0 1 circle 3 0 2 rect 1 2 line 2 3 4 5
+ circle 0 0 1 red circle 3 0 2 yellow rectangle 1 2 100 200 blue line 2 3 4 5 line 10 12 11 23

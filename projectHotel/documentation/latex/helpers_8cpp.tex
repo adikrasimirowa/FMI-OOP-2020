@@ -1,0 +1,133 @@
+\hypertarget{helpers_8cpp}{}\doxysection{helpers.\+cpp File Reference}
+\label{helpers_8cpp}\index{helpers.cpp@{helpers.cpp}}
+{\ttfamily \#include \char`\"{}Room.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} \mbox{\hyperlink{helpers_8cpp_a1781bc982e2811eb2858880987a59b91}{get\+Remaining\+Days}} (\mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} year, \mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} month, \mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} day)
+\begin{DoxyCompactList}\small\item\em връща колко дни остават до края на месеца \end{DoxyCompactList}\item 
+\mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} \mbox{\hyperlink{helpers_8cpp_a23e29085de8f4258fc2617b2efc22820}{get\+Year\+From\+String}} (std\+::string date)
+\begin{DoxyCompactList}\small\item\em връща годината от стринга като цяло число \end{DoxyCompactList}\item 
+\mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} \mbox{\hyperlink{helpers_8cpp_a771377bb4bcf182a481fc6158681bcc5}{get\+Month\+From\+String}} (std\+::string date)
+\begin{DoxyCompactList}\small\item\em връща месеца като цяло число от String. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} \mbox{\hyperlink{helpers_8cpp_a96116c206287beaa8edf76f163353420}{get\+Day\+From\+String}} (std\+::string date)
+\begin{DoxyCompactList}\small\item\em връща деня като цяло число от String. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} \mbox{\hyperlink{helpers_8cpp_aaef454a44fa5ed6ed5642b49d7e252d3}{count\+Days}} (const std\+::string \&\+\_\+from\+Date, const std\+::string \&\+\_\+to\+Date)
+\item 
+std\+::string \mbox{\hyperlink{helpers_8cpp_a9362a88e9b672f9ec4431f148e0198e0}{current\+Date}} ()
+\item 
+void \mbox{\hyperlink{helpers_8cpp_a02fd73d861ef2e4aabb38c0c9ff82947}{init}} ()
+\begin{DoxyCompactList}\small\item\em създава начални данни във файла на стаите \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{helpers_8cpp_a97ee70a8770dc30d06c744b24eb2fcfc}{help}} ()
+\begin{DoxyCompactList}\small\item\em помощно меню \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{helpers_8cpp_a4981066e183f1432ffd6eddf55826585}{commands}} ()
+\begin{DoxyCompactList}\small\item\em Меню с инструкции \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{helpers_8cpp_aa83a32b24184be2aa662add12afcff60}{in\+Period}} (const std\+::string \&\+\_\+from\+Date, const std\+::string \&\+\_\+to\+Date, const std\+::string \&\+\_\+room\+From\+Date, const std\+::string \&\+\_\+room\+To\+Date)
+\begin{DoxyCompactList}\small\item\em проверява дали в дадения период попада и периода на заетост на дадена стая \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{helpers_8cpp_a87717b1a353c50e2469cb741efd68981}{date\+Validator}} (std\+::string date)
+\begin{DoxyCompactList}\small\item\em валидатор на датите \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{helpers_8cpp_a4981066e183f1432ffd6eddf55826585}\label{helpers_8cpp_a4981066e183f1432ffd6eddf55826585}} 
+\index{helpers.cpp@{helpers.cpp}!commands@{commands}}
+\index{commands@{commands}!helpers.cpp@{helpers.cpp}}
+\doxysubsubsection{\texorpdfstring{commands()}{commands()}}
+{\footnotesize\ttfamily void commands (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Меню с инструкции 
+
+\mbox{\Hypertarget{helpers_8cpp_aaef454a44fa5ed6ed5642b49d7e252d3}\label{helpers_8cpp_aaef454a44fa5ed6ed5642b49d7e252d3}} 
+\index{helpers.cpp@{helpers.cpp}!countDays@{countDays}}
+\index{countDays@{countDays}!helpers.cpp@{helpers.cpp}}
+\doxysubsubsection{\texorpdfstring{countDays()}{countDays()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} count\+Days (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{\+\_\+from\+Date,  }\item[{const std\+::string \&}]{\+\_\+to\+Date }\end{DoxyParamCaption})}
+
+брои дните между датите note\+: не работи за дати между две години \mbox{\Hypertarget{helpers_8cpp_a9362a88e9b672f9ec4431f148e0198e0}\label{helpers_8cpp_a9362a88e9b672f9ec4431f148e0198e0}} 
+\index{helpers.cpp@{helpers.cpp}!currentDate@{currentDate}}
+\index{currentDate@{currentDate}!helpers.cpp@{helpers.cpp}}
+\doxysubsubsection{\texorpdfstring{currentDate()}{currentDate()}}
+{\footnotesize\ttfamily std\+::string current\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+връща текущата дата като стринг източник\+: \href{https://www.cplusplus.com/reference/ctime/strftime/}{\texttt{ https\+://www.\+cplusplus.\+com/reference/ctime/strftime/}} \mbox{\Hypertarget{helpers_8cpp_a87717b1a353c50e2469cb741efd68981}\label{helpers_8cpp_a87717b1a353c50e2469cb741efd68981}} 
+\index{helpers.cpp@{helpers.cpp}!dateValidator@{dateValidator}}
+\index{dateValidator@{dateValidator}!helpers.cpp@{helpers.cpp}}
+\doxysubsubsection{\texorpdfstring{dateValidator()}{dateValidator()}}
+{\footnotesize\ttfamily bool date\+Validator (\begin{DoxyParamCaption}\item[{std\+::string}]{date }\end{DoxyParamCaption})}
+
+
+
+валидатор на датите 
+
+\mbox{\Hypertarget{helpers_8cpp_a96116c206287beaa8edf76f163353420}\label{helpers_8cpp_a96116c206287beaa8edf76f163353420}} 
+\index{helpers.cpp@{helpers.cpp}!getDayFromString@{getDayFromString}}
+\index{getDayFromString@{getDayFromString}!helpers.cpp@{helpers.cpp}}
+\doxysubsubsection{\texorpdfstring{getDayFromString()}{getDayFromString()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} get\+Day\+From\+String (\begin{DoxyParamCaption}\item[{std\+::string}]{date }\end{DoxyParamCaption})}
+
+
+
+връща деня като цяло число от String. 
+
+\mbox{\Hypertarget{helpers_8cpp_a771377bb4bcf182a481fc6158681bcc5}\label{helpers_8cpp_a771377bb4bcf182a481fc6158681bcc5}} 
+\index{helpers.cpp@{helpers.cpp}!getMonthFromString@{getMonthFromString}}
+\index{getMonthFromString@{getMonthFromString}!helpers.cpp@{helpers.cpp}}
+\doxysubsubsection{\texorpdfstring{getMonthFromString()}{getMonthFromString()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} get\+Month\+From\+String (\begin{DoxyParamCaption}\item[{std\+::string}]{date }\end{DoxyParamCaption})}
+
+
+
+връща месеца като цяло число от String. 
+
+\mbox{\Hypertarget{helpers_8cpp_a1781bc982e2811eb2858880987a59b91}\label{helpers_8cpp_a1781bc982e2811eb2858880987a59b91}} 
+\index{helpers.cpp@{helpers.cpp}!getRemainingDays@{getRemainingDays}}
+\index{getRemainingDays@{getRemainingDays}!helpers.cpp@{helpers.cpp}}
+\doxysubsubsection{\texorpdfstring{getRemainingDays()}{getRemainingDays()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} get\+Remaining\+Days (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}}}]{year,  }\item[{\mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}}}]{month,  }\item[{\mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}}}]{day }\end{DoxyParamCaption})}
+
+
+
+връща колко дни остават до края на месеца 
+
+\mbox{\Hypertarget{helpers_8cpp_a23e29085de8f4258fc2617b2efc22820}\label{helpers_8cpp_a23e29085de8f4258fc2617b2efc22820}} 
+\index{helpers.cpp@{helpers.cpp}!getYearFromString@{getYearFromString}}
+\index{getYearFromString@{getYearFromString}!helpers.cpp@{helpers.cpp}}
+\doxysubsubsection{\texorpdfstring{getYearFromString()}{getYearFromString()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} get\+Year\+From\+String (\begin{DoxyParamCaption}\item[{std\+::string}]{date }\end{DoxyParamCaption})}
+
+
+
+връща годината от стринга като цяло число 
+
+\mbox{\Hypertarget{helpers_8cpp_a97ee70a8770dc30d06c744b24eb2fcfc}\label{helpers_8cpp_a97ee70a8770dc30d06c744b24eb2fcfc}} 
+\index{helpers.cpp@{helpers.cpp}!help@{help}}
+\index{help@{help}!helpers.cpp@{helpers.cpp}}
+\doxysubsubsection{\texorpdfstring{help()}{help()}}
+{\footnotesize\ttfamily void help (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+помощно меню 
+
+\mbox{\Hypertarget{helpers_8cpp_a02fd73d861ef2e4aabb38c0c9ff82947}\label{helpers_8cpp_a02fd73d861ef2e4aabb38c0c9ff82947}} 
+\index{helpers.cpp@{helpers.cpp}!init@{init}}
+\index{init@{init}!helpers.cpp@{helpers.cpp}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+създава начални данни във файла на стаите 
+
+\mbox{\Hypertarget{helpers_8cpp_aa83a32b24184be2aa662add12afcff60}\label{helpers_8cpp_aa83a32b24184be2aa662add12afcff60}} 
+\index{helpers.cpp@{helpers.cpp}!inPeriod@{inPeriod}}
+\index{inPeriod@{inPeriod}!helpers.cpp@{helpers.cpp}}
+\doxysubsubsection{\texorpdfstring{inPeriod()}{inPeriod()}}
+{\footnotesize\ttfamily bool in\+Period (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{\+\_\+from\+Date,  }\item[{const std\+::string \&}]{\+\_\+to\+Date,  }\item[{const std\+::string \&}]{\+\_\+room\+From\+Date,  }\item[{const std\+::string \&}]{\+\_\+room\+To\+Date }\end{DoxyParamCaption})}
+
+
+
+проверява дали в дадения период попада и периода на заетост на дадена стая 
+

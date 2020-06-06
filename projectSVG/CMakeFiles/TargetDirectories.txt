@@ -1,0 +1,3 @@
+/home/adi/CLionProjects/projectSVG/CMakeFiles/rebuild_cache.dir
+/home/adi/CLionProjects/projectSVG/CMakeFiles/edit_cache.dir
+/home/adi/CLionProjects/projectSVG/CMakeFiles/projectSVG.dir

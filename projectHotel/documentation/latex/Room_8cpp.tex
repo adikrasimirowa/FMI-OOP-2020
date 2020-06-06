@@ -1,0 +1,54 @@
+\hypertarget{Room_8cpp}{}\doxysection{Room.\+cpp File Reference}
+\label{Room_8cpp}\index{Room.cpp@{Room.cpp}}
+{\ttfamily \#include \char`\"{}Room.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::istream \& \mbox{\hyperlink{Room_8cpp_a3235db1c36e40be9386eb12b47a9f711}{operator$>$$>$}} (std\+::istream \&in, std\+::vector$<$ \mbox{\hyperlink{classRoom}{Room}} $>$ \&rooms)
+\begin{DoxyCompactList}\small\item\em метод за вход на вектор \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{Room_8cpp_a66c8bd3c89e37c43a65fe643d617f82d}{operator$<$$<$}} (std\+::ostream \&out, std\+::vector$<$ \mbox{\hyperlink{classRoom}{Room}} $>$ rooms)
+\begin{DoxyCompactList}\small\item\em метод за изход на вектор \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Room_8cpp_a50105d0835e078aba579ab6b6566dd9b}{report}} (const std\+::string \&\+\_\+from\+Date, const std\+::string \&\+\_\+to\+Date, std\+::vector$<$ \mbox{\hyperlink{classRoom}{Room}} $>$ rooms)
+\begin{DoxyCompactList}\small\item\em други операции \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Room_8cpp_a426e3f4dbfecaeb7eb4853e66e35fa41}{find}} (\mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}} \+\_\+beds, const std\+::string \&\+\_\+from\+Date, const std\+::string \&\+\_\+to\+Date, std\+::vector$<$ \mbox{\hyperlink{classRoom}{Room}} $>$ rooms)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{Room_8cpp_a426e3f4dbfecaeb7eb4853e66e35fa41}\label{Room_8cpp_a426e3f4dbfecaeb7eb4853e66e35fa41}} 
+\index{Room.cpp@{Room.cpp}!find@{find}}
+\index{find@{find}!Room.cpp@{Room.cpp}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}}
+{\footnotesize\ttfamily void find (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{CMakeCache_8txt_a79a3d8790b2588b09777910863574e09}{int}}}]{\+\_\+beds,  }\item[{const std\+::string \&}]{\+\_\+from\+Date,  }\item[{const std\+::string \&}]{\+\_\+to\+Date,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classRoom}{Room}} $>$}]{rooms }\end{DoxyParamCaption})}
+
+find $<$beds$>$ $<$from$>$ $<$to$>$ Намиране на подходяща свободна стая с поне $<$beds$>$ на брой легла в периода от $<$from$>$ до $<$to$>$. При наличие на повече свободни стаи се предпочитат такива с по-\/малко на брой легла. \mbox{\Hypertarget{Room_8cpp_a66c8bd3c89e37c43a65fe643d617f82d}\label{Room_8cpp_a66c8bd3c89e37c43a65fe643d617f82d}} 
+\index{Room.cpp@{Room.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Room.cpp@{Room.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classRoom}{Room}} $>$}]{rooms }\end{DoxyParamCaption})}
+
+
+
+метод за изход на вектор 
+
+\mbox{\Hypertarget{Room_8cpp_a3235db1c36e40be9386eb12b47a9f711}\label{Room_8cpp_a3235db1c36e40be9386eb12b47a9f711}} 
+\index{Room.cpp@{Room.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Room.cpp@{Room.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classRoom}{Room}} $>$ \&}]{rooms }\end{DoxyParamCaption})}
+
+
+
+метод за вход на вектор 
+
+потоци за вход и изход \mbox{\Hypertarget{Room_8cpp_a50105d0835e078aba579ab6b6566dd9b}\label{Room_8cpp_a50105d0835e078aba579ab6b6566dd9b}} 
+\index{Room.cpp@{Room.cpp}!report@{report}}
+\index{report@{report}!Room.cpp@{Room.cpp}}
+\doxysubsubsection{\texorpdfstring{report()}{report()}}
+{\footnotesize\ttfamily void report (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{\+\_\+from\+Date,  }\item[{const std\+::string \&}]{\+\_\+to\+Date,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classRoom}{Room}} $>$}]{rooms }\end{DoxyParamCaption})}
+
+
+
+други операции 
+
+report $<$from$>$ $<$to$>$ Извежда справка за използването на стаи в периода от дата $<$from$>$ до $<$to$>$. Извежда се списък, в който за всяка стая, използвана в дадения период, се извежда и броя на дните, в които е била използвана. note\+: не работи за периода пр. 2020.\+12.\+01 -\/ 2020.\+01.\+01 

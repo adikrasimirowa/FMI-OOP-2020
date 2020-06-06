@@ -1,0 +1,236 @@
+\hypertarget{classCircle}{}\doxysection{Circle Class Reference}
+\label{classCircle}\index{Circle@{Circle}}
+
+
+{\ttfamily \#include $<$Circle.\+h$>$}
+
+Inheritance diagram for Circle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classCircle}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCircle_a38ffbcb6ffb8ca13d272283142dada28}{Circle}} (double \+\_\+x, double \+\_\+y, double \+\_\+r, std\+::string fill)
+\begin{DoxyCompactList}\small\item\em Конструктор с параметри и списък с инициализатори на членове \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCircle_a5a5869029e12c990a9e8f744f90d0930}{Circle}} (const \mbox{\hyperlink{classCircle}{Circle}} \&other)
+\begin{DoxyCompactList}\small\item\em Копиращ конструктор \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCircle}{Circle}} \& \mbox{\hyperlink{classCircle_aada35d0dcd950c3be40ea330b696c1d5}{operator=}} (const \mbox{\hyperlink{classCircle}{Circle}} \&other)
+\begin{DoxyCompactList}\small\item\em Оператор за присвояване -\/ предефинираме =. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCircle_ae3f30436e645d73e368e8ee55f8d1650}{$\sim$\+Circle}} ()
+\begin{DoxyCompactList}\small\item\em Диструктор \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCircle_a8e1b2afd696611b697691ed8ae897000}{print}} ()
+\begin{DoxyCompactList}\small\item\em извеждане на всички член данни \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCircle_a64147857304d7c86e39cac9dd7e13772}{save}} (std\+::ostream \&out)
+\begin{DoxyCompactList}\small\item\em записване в потока \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCircle_a18227f9c63748753b1cd8bae6b633dd5}{load}} (std\+::istream \&in)
+\begin{DoxyCompactList}\small\item\em зареждане от потока \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCircle_a048fb06be6d6146f68c3795acfb35085}{translate}} (double vertical, double horizontal)
+\begin{DoxyCompactList}\small\item\em транслира кръга \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classCircle_a6f0fd512e07b960245f1e28d61a90573}{get\+Cx}} () const
+\begin{DoxyCompactList}\small\item\em връща координата cx на центъра на кръга \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCircle_a8328e0e16dda8b2fc5eaebd6bc888545}{set\+Cx}} (double cx)
+\begin{DoxyCompactList}\small\item\em задава стойност на cy на центъра на кръга \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classCircle_abb9a831f3650b749f3850ad16ddf1cb3}{get\+Cy}} () const
+\begin{DoxyCompactList}\small\item\em връща координата cy на центъра на кръга \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCircle_a20b6a968428b264ff82282f83abd4832}{set\+Cy}} (double cy)
+\begin{DoxyCompactList}\small\item\em задава стойност на cy на центъра на кръга \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classCircle_a9a44a938e3d8df0b6ecb6f3f00a0878d}{getR}} () const
+\begin{DoxyCompactList}\small\item\em връща радиуса на кръга \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCircle_a134591f8ebc6357e6eb2b6f0c6451514}{setR}} (double r)
+\begin{DoxyCompactList}\small\item\em задава стойност на радиуса \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCircle_a391aab684f77c6b9afa082c6c8bb2167}{set\+Fill}} (const std\+::string \&fill)
+\begin{DoxyCompactList}\small\item\em задава цвета на фигурата \end{DoxyCompactList}\item 
+const std\+::string \& \mbox{\hyperlink{classCircle_add5e0830abd50b0941e2d3a3892fdf5b}{get\+Fill}} () const
+\begin{DoxyCompactList}\small\item\em връща цвета на фигурата \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCircle_a38ffbcb6ffb8ca13d272283142dada28}\label{classCircle_a38ffbcb6ffb8ca13d272283142dada28}} 
+\index{Circle@{Circle}!Circle@{Circle}}
+\index{Circle@{Circle}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{Circle()}{Circle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Circle\+::\+Circle (\begin{DoxyParamCaption}\item[{double}]{\+\_\+x,  }\item[{double}]{\+\_\+y,  }\item[{double}]{\+\_\+r,  }\item[{std\+::string}]{\+\_\+fill }\end{DoxyParamCaption})}
+
+
+
+Конструктор с параметри и списък с инициализатори на членове 
+
+\mbox{\Hypertarget{classCircle_a5a5869029e12c990a9e8f744f90d0930}\label{classCircle_a5a5869029e12c990a9e8f744f90d0930}} 
+\index{Circle@{Circle}!Circle@{Circle}}
+\index{Circle@{Circle}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{Circle()}{Circle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Circle\+::\+Circle (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classCircle}{Circle}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Копиращ конструктор 
+
+\mbox{\Hypertarget{classCircle_ae3f30436e645d73e368e8ee55f8d1650}\label{classCircle_ae3f30436e645d73e368e8ee55f8d1650}} 
+\index{Circle@{Circle}!````~Circle@{$\sim$Circle}}
+\index{````~Circle@{$\sim$Circle}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{$\sim$Circle()}{~Circle()}}
+{\footnotesize\ttfamily Circle\+::$\sim$\+Circle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Диструктор 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCircle_a6f0fd512e07b960245f1e28d61a90573}\label{classCircle_a6f0fd512e07b960245f1e28d61a90573}} 
+\index{Circle@{Circle}!getCx@{getCx}}
+\index{getCx@{getCx}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{getCx()}{getCx()}}
+{\footnotesize\ttfamily double Circle\+::get\+Cx (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща координата cx на центъра на кръга 
+
+\mbox{\Hypertarget{classCircle_abb9a831f3650b749f3850ad16ddf1cb3}\label{classCircle_abb9a831f3650b749f3850ad16ddf1cb3}} 
+\index{Circle@{Circle}!getCy@{getCy}}
+\index{getCy@{getCy}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{getCy()}{getCy()}}
+{\footnotesize\ttfamily double Circle\+::get\+Cy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща координата cy на центъра на кръга 
+
+\mbox{\Hypertarget{classCircle_add5e0830abd50b0941e2d3a3892fdf5b}\label{classCircle_add5e0830abd50b0941e2d3a3892fdf5b}} 
+\index{Circle@{Circle}!getFill@{getFill}}
+\index{getFill@{getFill}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{getFill()}{getFill()}}
+{\footnotesize\ttfamily const std\+::string \& Circle\+::get\+Fill (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща цвета на фигурата 
+
+\mbox{\Hypertarget{classCircle_a9a44a938e3d8df0b6ecb6f3f00a0878d}\label{classCircle_a9a44a938e3d8df0b6ecb6f3f00a0878d}} 
+\index{Circle@{Circle}!getR@{getR}}
+\index{getR@{getR}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{getR()}{getR()}}
+{\footnotesize\ttfamily double Circle\+::getR (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща радиуса на кръга 
+
+\mbox{\Hypertarget{classCircle_a18227f9c63748753b1cd8bae6b633dd5}\label{classCircle_a18227f9c63748753b1cd8bae6b633dd5}} 
+\index{Circle@{Circle}!load@{load}}
+\index{load@{load}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily void Circle\+::load (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+зареждане от потока 
+
+
+
+Implements \mbox{\hyperlink{classFigure_a19ed63fd67149dda8b9ce07675d35a1f}{Figure}}.
+
+\mbox{\Hypertarget{classCircle_aada35d0dcd950c3be40ea330b696c1d5}\label{classCircle_aada35d0dcd950c3be40ea330b696c1d5}} 
+\index{Circle@{Circle}!operator=@{operator=}}
+\index{operator=@{operator=}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCircle}{Circle}} \& Circle\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classCircle}{Circle}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Оператор за присвояване -\/ предефинираме =. 
+
+\mbox{\Hypertarget{classCircle_a8e1b2afd696611b697691ed8ae897000}\label{classCircle_a8e1b2afd696611b697691ed8ae897000}} 
+\index{Circle@{Circle}!print@{print}}
+\index{print@{print}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Circle\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+извеждане на всички член данни 
+
+
+
+Implements \mbox{\hyperlink{classFigure_a5bb38ff7abd69e06d6f1873b28440262}{Figure}}.
+
+\mbox{\Hypertarget{classCircle_a64147857304d7c86e39cac9dd7e13772}\label{classCircle_a64147857304d7c86e39cac9dd7e13772}} 
+\index{Circle@{Circle}!save@{save}}
+\index{save@{save}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily void Circle\+::save (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+записване в потока 
+
+
+
+Implements \mbox{\hyperlink{classFigure_a5e83671e5cb1f39ad74f10423c9f8b4e}{Figure}}.
+
+\mbox{\Hypertarget{classCircle_a8328e0e16dda8b2fc5eaebd6bc888545}\label{classCircle_a8328e0e16dda8b2fc5eaebd6bc888545}} 
+\index{Circle@{Circle}!setCx@{setCx}}
+\index{setCx@{setCx}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{setCx()}{setCx()}}
+{\footnotesize\ttfamily void Circle\+::set\+Cx (\begin{DoxyParamCaption}\item[{double}]{\+\_\+cx }\end{DoxyParamCaption})}
+
+
+
+задава стойност на cy на центъра на кръга 
+
+\mbox{\Hypertarget{classCircle_a20b6a968428b264ff82282f83abd4832}\label{classCircle_a20b6a968428b264ff82282f83abd4832}} 
+\index{Circle@{Circle}!setCy@{setCy}}
+\index{setCy@{setCy}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{setCy()}{setCy()}}
+{\footnotesize\ttfamily void Circle\+::set\+Cy (\begin{DoxyParamCaption}\item[{double}]{\+\_\+cy }\end{DoxyParamCaption})}
+
+
+
+задава стойност на cy на центъра на кръга 
+
+\mbox{\Hypertarget{classCircle_a391aab684f77c6b9afa082c6c8bb2167}\label{classCircle_a391aab684f77c6b9afa082c6c8bb2167}} 
+\index{Circle@{Circle}!setFill@{setFill}}
+\index{setFill@{setFill}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{setFill()}{setFill()}}
+{\footnotesize\ttfamily void Circle\+::set\+Fill (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{\+\_\+fill }\end{DoxyParamCaption})}
+
+
+
+задава цвета на фигурата 
+
+\mbox{\Hypertarget{classCircle_a134591f8ebc6357e6eb2b6f0c6451514}\label{classCircle_a134591f8ebc6357e6eb2b6f0c6451514}} 
+\index{Circle@{Circle}!setR@{setR}}
+\index{setR@{setR}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{setR()}{setR()}}
+{\footnotesize\ttfamily void Circle\+::setR (\begin{DoxyParamCaption}\item[{double}]{\+\_\+r }\end{DoxyParamCaption})}
+
+
+
+задава стойност на радиуса 
+
+\mbox{\Hypertarget{classCircle_a048fb06be6d6146f68c3795acfb35085}\label{classCircle_a048fb06be6d6146f68c3795acfb35085}} 
+\index{Circle@{Circle}!translate@{translate}}
+\index{translate@{translate}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{translate()}{translate()}}
+{\footnotesize\ttfamily void Circle\+::translate (\begin{DoxyParamCaption}\item[{double}]{vertical,  }\item[{double}]{horizontal }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+транслира кръга 
+
+
+
+Implements \mbox{\hyperlink{classFigure_ae256e35dca8c56bd9bc8055502178e76}{Figure}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Circle_8h}{Circle.\+h}}\item 
+\mbox{\hyperlink{Circle_8cpp}{Circle.\+cpp}}\end{DoxyCompactItemize}

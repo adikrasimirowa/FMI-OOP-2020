@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adi/Documents/c++/oop/FOR GIT/projectHotel/Room.cpp
+Room.h
+/home/adi/Documents/c++/oop/FOR GIT/projectHotel/Room.h
+
+/home/adi/Documents/c++/oop/FOR GIT/projectHotel/Room.h
+
+/home/adi/Documents/c++/oop/FOR GIT/projectHotel/helpers.cpp
+Room.h
+/home/adi/Documents/c++/oop/FOR GIT/projectHotel/Room.h
+
+/home/adi/Documents/c++/oop/FOR GIT/projectHotel/main.cpp
+iostream
+-
+iomanip
+-
+string
+-
+vector
+-
+cstring
+-
+fstream
+-
+ctime
+-
+helpers.cpp
+/home/adi/Documents/c++/oop/FOR GIT/projectHotel/helpers.cpp
+Room.cpp
+/home/adi/Documents/c++/oop/FOR GIT/projectHotel/Room.cpp
+

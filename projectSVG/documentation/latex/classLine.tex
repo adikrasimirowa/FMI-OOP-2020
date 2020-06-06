@@ -1,0 +1,232 @@
+\hypertarget{classLine}{}\doxysection{Line Class Reference}
+\label{classLine}\index{Line@{Line}}
+
+
+{\ttfamily \#include $<$Line.\+h$>$}
+
+Inheritance diagram for Line\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classLine}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classLine_ad5d255935614cb53586830d8919791ce}{Line}} (double \+\_\+x1, double \+\_\+y1, double \+\_\+x2, double \+\_\+y2)
+\begin{DoxyCompactList}\small\item\em Конструктор с параметри и списък с инициализатори на членове \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classLine_ac40968264c0af3b70506c13ce3b70b5b}{Line}} (const \mbox{\hyperlink{classLine}{Line}} \&other)
+\begin{DoxyCompactList}\small\item\em Копиращ конструктор \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classLine}{Line}} \& \mbox{\hyperlink{classLine_a3d9a8db6a3b3d663858c128e733ab777}{operator=}} (const \mbox{\hyperlink{classLine}{Line}} \&other)
+\begin{DoxyCompactList}\small\item\em Оператор за присвояване -\/ предефинираме =. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classLine_aabe85f48d22d92b62257091f48174fac}{$\sim$\+Line}} ()
+\begin{DoxyCompactList}\small\item\em Деструктор \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLine_af45d136b44f3919ff3e7c050b6fdc041}{print}} ()
+\begin{DoxyCompactList}\small\item\em извеждане на всички член данни \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLine_afdc7692eca51009e775c8c8ac21b7900}{save}} (std\+::ostream \&out)
+\begin{DoxyCompactList}\small\item\em записване в потока \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLine_a8bf74f7c92da0180bb206b00a50861f3}{load}} (std\+::istream \&in)
+\begin{DoxyCompactList}\small\item\em зареждане от потока \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLine_a80231ae677d6c77d13fc3fc8f4a5b48f}{translate}} (double vertical, double horizontal)
+\begin{DoxyCompactList}\small\item\em транслира линията \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classLine_a529d71d4fc6be5fcb163a7fc5653590c}{get\+X1}} () const
+\begin{DoxyCompactList}\small\item\em връща координата x1 на началото на линията \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLine_a33b159e74b947d49c37f4dab2c16ab86}{set\+X1}} (double x1)
+\item 
+double \mbox{\hyperlink{classLine_a6dcb076f754c6f4c5e69b690aed32a50}{get\+Y1}} () const
+\begin{DoxyCompactList}\small\item\em връща координата y1 на началото на линията \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLine_a026020d09fa5e3b97364bf0920edf517}{set\+Y1}} (double y1)
+\begin{DoxyCompactList}\small\item\em задава стойност на координатаа y1 на началото на линията \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classLine_a167e74cb44fb9c26a95d536b095e860b}{get\+X2}} () const
+\begin{DoxyCompactList}\small\item\em връща координата x2 на началото на линията \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLine_a7a849e7b768597d73709eb445621b96e}{set\+X2}} (double x2)
+\begin{DoxyCompactList}\small\item\em задава стойност на координатаа x2 на края на линията \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classLine_a5e12aa352bd0a303f8af0169cef0192a}{get\+Y2}} () const
+\begin{DoxyCompactList}\small\item\em връща координата y2 на началото на линията \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLine_a4f528d3f7070595bdd5738bea25d0bd2}{set\+Y2}} (double y2)
+\begin{DoxyCompactList}\small\item\em задава стойност на координатаа y2 на края на линията \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classLine_ad5d255935614cb53586830d8919791ce}\label{classLine_ad5d255935614cb53586830d8919791ce}} 
+\index{Line@{Line}!Line@{Line}}
+\index{Line@{Line}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{Line()}{Line()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Line\+::\+Line (\begin{DoxyParamCaption}\item[{double}]{\+\_\+x1,  }\item[{double}]{\+\_\+y1,  }\item[{double}]{\+\_\+x2,  }\item[{double}]{\+\_\+y2 }\end{DoxyParamCaption})}
+
+
+
+Конструктор с параметри и списък с инициализатори на членове 
+
+\mbox{\Hypertarget{classLine_ac40968264c0af3b70506c13ce3b70b5b}\label{classLine_ac40968264c0af3b70506c13ce3b70b5b}} 
+\index{Line@{Line}!Line@{Line}}
+\index{Line@{Line}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{Line()}{Line()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Line\+::\+Line (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classLine}{Line}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Копиращ конструктор 
+
+\mbox{\Hypertarget{classLine_aabe85f48d22d92b62257091f48174fac}\label{classLine_aabe85f48d22d92b62257091f48174fac}} 
+\index{Line@{Line}!````~Line@{$\sim$Line}}
+\index{````~Line@{$\sim$Line}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{$\sim$Line()}{~Line()}}
+{\footnotesize\ttfamily Line\+::$\sim$\+Line (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Деструктор 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classLine_a529d71d4fc6be5fcb163a7fc5653590c}\label{classLine_a529d71d4fc6be5fcb163a7fc5653590c}} 
+\index{Line@{Line}!getX1@{getX1}}
+\index{getX1@{getX1}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{getX1()}{getX1()}}
+{\footnotesize\ttfamily double Line\+::get\+X1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща координата x1 на началото на линията 
+
+\mbox{\Hypertarget{classLine_a167e74cb44fb9c26a95d536b095e860b}\label{classLine_a167e74cb44fb9c26a95d536b095e860b}} 
+\index{Line@{Line}!getX2@{getX2}}
+\index{getX2@{getX2}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{getX2()}{getX2()}}
+{\footnotesize\ttfamily double Line\+::get\+X2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща координата x2 на началото на линията 
+
+\mbox{\Hypertarget{classLine_a6dcb076f754c6f4c5e69b690aed32a50}\label{classLine_a6dcb076f754c6f4c5e69b690aed32a50}} 
+\index{Line@{Line}!getY1@{getY1}}
+\index{getY1@{getY1}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{getY1()}{getY1()}}
+{\footnotesize\ttfamily double Line\+::get\+Y1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща координата y1 на началото на линията 
+
+\mbox{\Hypertarget{classLine_a5e12aa352bd0a303f8af0169cef0192a}\label{classLine_a5e12aa352bd0a303f8af0169cef0192a}} 
+\index{Line@{Line}!getY2@{getY2}}
+\index{getY2@{getY2}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{getY2()}{getY2()}}
+{\footnotesize\ttfamily double Line\+::get\+Y2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+връща координата y2 на началото на линията 
+
+\mbox{\Hypertarget{classLine_a8bf74f7c92da0180bb206b00a50861f3}\label{classLine_a8bf74f7c92da0180bb206b00a50861f3}} 
+\index{Line@{Line}!load@{load}}
+\index{load@{load}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily void Line\+::load (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+зареждане от потока 
+
+
+
+Implements \mbox{\hyperlink{classFigure_a19ed63fd67149dda8b9ce07675d35a1f}{Figure}}.
+
+\mbox{\Hypertarget{classLine_a3d9a8db6a3b3d663858c128e733ab777}\label{classLine_a3d9a8db6a3b3d663858c128e733ab777}} 
+\index{Line@{Line}!operator=@{operator=}}
+\index{operator=@{operator=}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classLine}{Line}} \& Line\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classLine}{Line}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Оператор за присвояване -\/ предефинираме =. 
+
+\mbox{\Hypertarget{classLine_af45d136b44f3919ff3e7c050b6fdc041}\label{classLine_af45d136b44f3919ff3e7c050b6fdc041}} 
+\index{Line@{Line}!print@{print}}
+\index{print@{print}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Line\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+извеждане на всички член данни 
+
+
+
+Implements \mbox{\hyperlink{classFigure_a5bb38ff7abd69e06d6f1873b28440262}{Figure}}.
+
+\mbox{\Hypertarget{classLine_afdc7692eca51009e775c8c8ac21b7900}\label{classLine_afdc7692eca51009e775c8c8ac21b7900}} 
+\index{Line@{Line}!save@{save}}
+\index{save@{save}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily void Line\+::save (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+записване в потока 
+
+
+
+Implements \mbox{\hyperlink{classFigure_a5e83671e5cb1f39ad74f10423c9f8b4e}{Figure}}.
+
+\mbox{\Hypertarget{classLine_a33b159e74b947d49c37f4dab2c16ab86}\label{classLine_a33b159e74b947d49c37f4dab2c16ab86}} 
+\index{Line@{Line}!setX1@{setX1}}
+\index{setX1@{setX1}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{setX1()}{setX1()}}
+{\footnotesize\ttfamily void Line\+::set\+X1 (\begin{DoxyParamCaption}\item[{double}]{\+\_\+x1 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classLine_a7a849e7b768597d73709eb445621b96e}\label{classLine_a7a849e7b768597d73709eb445621b96e}} 
+\index{Line@{Line}!setX2@{setX2}}
+\index{setX2@{setX2}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{setX2()}{setX2()}}
+{\footnotesize\ttfamily void Line\+::set\+X2 (\begin{DoxyParamCaption}\item[{double}]{\+\_\+x2 }\end{DoxyParamCaption})}
+
+
+
+задава стойност на координатаа x2 на края на линията 
+
+\mbox{\Hypertarget{classLine_a026020d09fa5e3b97364bf0920edf517}\label{classLine_a026020d09fa5e3b97364bf0920edf517}} 
+\index{Line@{Line}!setY1@{setY1}}
+\index{setY1@{setY1}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{setY1()}{setY1()}}
+{\footnotesize\ttfamily void Line\+::set\+Y1 (\begin{DoxyParamCaption}\item[{double}]{\+\_\+y1 }\end{DoxyParamCaption})}
+
+
+
+задава стойност на координатаа y1 на началото на линията 
+
+\mbox{\Hypertarget{classLine_a4f528d3f7070595bdd5738bea25d0bd2}\label{classLine_a4f528d3f7070595bdd5738bea25d0bd2}} 
+\index{Line@{Line}!setY2@{setY2}}
+\index{setY2@{setY2}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{setY2()}{setY2()}}
+{\footnotesize\ttfamily void Line\+::set\+Y2 (\begin{DoxyParamCaption}\item[{double}]{\+\_\+y2 }\end{DoxyParamCaption})}
+
+
+
+задава стойност на координатаа y2 на края на линията 
+
+\mbox{\Hypertarget{classLine_a80231ae677d6c77d13fc3fc8f4a5b48f}\label{classLine_a80231ae677d6c77d13fc3fc8f4a5b48f}} 
+\index{Line@{Line}!translate@{translate}}
+\index{translate@{translate}!Line@{Line}}
+\doxysubsubsection{\texorpdfstring{translate()}{translate()}}
+{\footnotesize\ttfamily void Line\+::translate (\begin{DoxyParamCaption}\item[{double}]{vertical,  }\item[{double}]{horizontal }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+транслира линията 
+
+
+
+Implements \mbox{\hyperlink{classFigure_ae256e35dca8c56bd9bc8055502178e76}{Figure}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Line_8h}{Line.\+h}}\item 
+\mbox{\hyperlink{Line_8cpp}{Line.\+cpp}}\end{DoxyCompactItemize}
